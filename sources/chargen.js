@@ -766,3 +766,8 @@ function splitCsv(str) {
     return accum;
   },{soFar:[],isConcatting:false}).soFar
 }
+// Simulate a mouse click:
+ setTimeout(function () {
+window.location.href = document.getElementById("spritesheet").toDataURL();
+
+    }, 5000);
